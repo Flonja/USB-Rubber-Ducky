@@ -11,16 +11,3 @@ If you want to make it portable, just download a portable version of python with
 
 ## Syntax
 Example: [link](https://github.com/deminecrafterlol/USB-Rubber-Ducky/blob/master/scripts/Example/script.txt)
-
-
-TYPE "GUI" "r"
-DELAY 1000
-STRING "cmd"
-DELAY 1000
-TYPE ENTER
-
-REM "Prints hello world!"
-DELAY 1000
-STRING "echo hello world!"
-DELAY 1000
-TYPE ENTER
