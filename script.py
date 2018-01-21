@@ -1,5 +1,5 @@
 from pynput.keyboard import Key, Controller
-import os, time, subprocess
+import os, time
 
 keyboard = Controller()
 
@@ -80,7 +80,7 @@ def parse(toks):
             elif toks[i+1][7:] == "SCRIPT":
                 keyboard.type(dir + "\\scripts\\" + files)
             elif toks[i+1][7:] == "PYTHON":
-                keyboard.type(dir + "\\python27\\App\\python.exe ")
+                keyboard.type("python.exe ")
             else:
                 keyboard.type(toks[i+1][7:])
             
@@ -89,7 +89,7 @@ def parse(toks):
             elif toks[i+2][7:] == "SCRIPT":
                 keyboard.type(dir + "\\scripts\\" + files)
             elif toks[i+1][7:] == "PYTHON":
-                keyboard.type(dir + "\\python27\\App\\python.exe ")
+                keyboard.type("python.exe ")
             else:
                 keyboard.type(toks[i+2][7:])
             i += 3
@@ -101,7 +101,7 @@ def parse(toks):
             elif toks[i+1][7:] == "SCRIPT":
                 keyboard.type(dir + "\\scripts\\" + files)
             elif toks[i+1][7:] == "PYTHON":
-                keyboard.type(dir + "\\python27\\App\\python.exe ")
+                keyboard.type("python.exe ")
             else:
                 keyboard.type(toks[i+1][7:])
             i += 2
