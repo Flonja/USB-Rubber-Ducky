@@ -1,0 +1,11 @@
+TYPE "GUI" "r"
+DELAY 1000
+STRING "cmd"
+DELAY 1000
+TYPE ENTER
+
+REM "Prints hello world!"
+DELAY 1000
+STRING "echo hello world!"
+DELAY 1000
+TYPE ENTER

